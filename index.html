@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trubnikov Sergey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="IMG-3.jpg" alt="foto" class="avatar" />
+
+        <div class="info-text">
+          <h1>Трубников Сергей</h1>
+          <p>
+            Являюсь разработчик с <strong>2008 года</strong>
+            <br />
+            Имею высшее образование по специальности
+            <strong>"Программное обеспечение автоматизированных систем"</strong>
+          </p>
+
+          <h4>Список контактов</h4>
+          <div class="contacts">
+            <a href="https://t.me/STrubnikov" target="_blank">Telegram</a>
+            
+            | trubnikovsergey1@gmail.com
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-1">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Пешие прогулки</li>
+          <li>Природа</li>
+          <li>Игра на гитаре/укулеле</li>
+          <li>Настольный теннис</li>
+        </ol>
+      </div>
+
+      <div class="card bg-1">
+        <h2>Опыт работы</h2>
+        <table class="job">
+          <!-- <thead>
+              <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+              </tr>
+            </thead> -->
+          <tbody>
+            <tr>
+              <td>Neti</td>
+              <td>1С разработчик</td>
+              <td>2017-2021</td>
+            </tr>
+            <tr>
+              <td>OOO "Флориш"</td>
+              <td>SQL developer</td>
+              <td>2021-2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-2">
+        <form class="form" action="/">
+          <h2>Связаться со мной</h2>
+          <div class="form-row">
+            <div class="form-item">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+            <div class="form-item">
+              <label for="email">Ваше email:</label>
+              <input type="text" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+          <div class="form-item">
+            <label for="message">Ваше имя:</label>
+            <textarea
+              type="text"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+          <input type="submit" value="Отправить" class="btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
